@@ -1,0 +1,533 @@
+{
+  "math/ops/ops": {
+    "info": {
+      "go_module": "github.com/acme-kuetix/acme-std-math",
+      "namespace": "math/ops",
+      "class": "ops",
+      "label": "Ops Module",
+      "description": "Handles ops operations for math/ops service"
+    },
+    "methods": [
+      {
+        "value": "Add",
+        "label": "Add(a interface{}, b interface{}) (r domain.FlowStepResult)",
+        "names": "Add(a, b) r",
+        "types": "Add(interface{}, interface{}) domain.FlowStepResult",
+        "description": "Function with 2 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-math",
+          "file_path": "modules/math/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "math/ops",
+          "class": "ops",
+          "name": "Add",
+          "receiver_type": "*opsTransitions",
+          "num_in": 2,
+          "num_out": 1,
+          "arg_types": [
+            "interface{}",
+            "interface{}"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "a",
+            "b"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "AssertBalanced",
+        "label": "AssertBalanced(lines interface{}) (r domain.FlowStepResult)",
+        "names": "AssertBalanced(lines) r",
+        "types": "AssertBalanced(interface{}) domain.FlowStepResult",
+        "description": "Function with 1 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-math",
+          "file_path": "modules/math/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "math/ops",
+          "class": "ops",
+          "name": "AssertBalanced",
+          "receiver_type": "*opsTransitions",
+          "num_in": 1,
+          "num_out": 1,
+          "arg_types": [
+            "interface{}"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "lines"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "AssertGreaterThan",
+        "label": "AssertGreaterThan(value interface{}, threshold interface{}, code string, message string) (r domain.FlowStepResult)",
+        "names": "AssertGreaterThan(value, threshold, code, message) r",
+        "types": "AssertGreaterThan(interface{}, interface{}, string, string) domain.FlowStepResult",
+        "description": "Function with 4 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-math",
+          "file_path": "modules/math/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "math/ops",
+          "class": "ops",
+          "name": "AssertGreaterThan",
+          "receiver_type": "*opsTransitions",
+          "num_in": 4,
+          "num_out": 1,
+          "arg_types": [
+            "interface{}",
+            "interface{}",
+            "string",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "threshold",
+            "code",
+            "message"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "AssertPositive",
+        "label": "AssertPositive(value interface{}, code string, message string) (r domain.FlowStepResult)",
+        "names": "AssertPositive(value, code, message) r",
+        "types": "AssertPositive(interface{}, string, string) domain.FlowStepResult",
+        "description": "Function with 3 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-math",
+          "file_path": "modules/math/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "math/ops",
+          "class": "ops",
+          "name": "AssertPositive",
+          "receiver_type": "*opsTransitions",
+          "num_in": 3,
+          "num_out": 1,
+          "arg_types": [
+            "interface{}",
+            "string",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "code",
+            "message"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "Div",
+        "label": "Div(a interface{}, b interface{}) (r domain.FlowStepResult)",
+        "names": "Div(a, b) r",
+        "types": "Div(interface{}, interface{}) domain.FlowStepResult",
+        "description": "Function with 2 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-math",
+          "file_path": "modules/math/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "math/ops",
+          "class": "ops",
+          "name": "Div",
+          "receiver_type": "*opsTransitions",
+          "num_in": 2,
+          "num_out": 1,
+          "arg_types": [
+            "interface{}",
+            "interface{}"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "a",
+            "b"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "Mul",
+        "label": "Mul(a interface{}, b interface{}) (r domain.FlowStepResult)",
+        "names": "Mul(a, b) r",
+        "types": "Mul(interface{}, interface{}) domain.FlowStepResult",
+        "description": "Function with 2 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-math",
+          "file_path": "modules/math/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "math/ops",
+          "class": "ops",
+          "name": "Mul",
+          "receiver_type": "*opsTransitions",
+          "num_in": 2,
+          "num_out": 1,
+          "arg_types": [
+            "interface{}",
+            "interface{}"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "a",
+            "b"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "Add",
+        "label": "Add(a interface{}, b interface{}) (r domain.FlowStepResult)",
+        "names": "Add(a, b) r",
+        "types": "Add(interface{}, interface{}) domain.FlowStepResult",
+        "description": "Function with 2 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-math",
+          "file_path": "modules/math/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "math/ops",
+          "class": "ops",
+          "name": "Add",
+          "receiver_type": "*opsTransitions",
+          "num_in": 2,
+          "num_out": 1,
+          "arg_types": [
+            "interface{}",
+            "interface{}"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "a",
+            "b"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "Sub",
+        "label": "Sub(a interface{}, b interface{}) (r domain.FlowStepResult)",
+        "names": "Sub(a, b) r",
+        "types": "Sub(interface{}, interface{}) domain.FlowStepResult",
+        "description": "Function with 2 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-math",
+          "file_path": "modules/math/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "math/ops",
+          "class": "ops",
+          "name": "Sub",
+          "receiver_type": "*opsTransitions",
+          "num_in": 2,
+          "num_out": 1,
+          "arg_types": [
+            "interface{}",
+            "interface{}"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "a",
+            "b"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "Mul",
+        "label": "Mul(a interface{}, b interface{}) (r domain.FlowStepResult)",
+        "names": "Mul(a, b) r",
+        "types": "Mul(interface{}, interface{}) domain.FlowStepResult",
+        "description": "Function with 2 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-math",
+          "file_path": "modules/math/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "math/ops",
+          "class": "ops",
+          "name": "Mul",
+          "receiver_type": "*opsTransitions",
+          "num_in": 2,
+          "num_out": 1,
+          "arg_types": [
+            "interface{}",
+            "interface{}"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "a",
+            "b"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "Div",
+        "label": "Div(a interface{}, b interface{}) (r domain.FlowStepResult)",
+        "names": "Div(a, b) r",
+        "types": "Div(interface{}, interface{}) domain.FlowStepResult",
+        "description": "Function with 2 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-math",
+          "file_path": "modules/math/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "math/ops",
+          "class": "ops",
+          "name": "Div",
+          "receiver_type": "*opsTransitions",
+          "num_in": 2,
+          "num_out": 1,
+          "arg_types": [
+            "interface{}",
+            "interface{}"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "a",
+            "b"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "Round",
+        "label": "Round(value interface{}, decimals int) (r domain.FlowStepResult)",
+        "names": "Round(value, decimals) r",
+        "types": "Round(interface{}, int) domain.FlowStepResult",
+        "description": "Function with 2 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-math",
+          "file_path": "modules/math/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "math/ops",
+          "class": "ops",
+          "name": "Round",
+          "receiver_type": "*opsTransitions",
+          "num_in": 2,
+          "num_out": 1,
+          "arg_types": [
+            "interface{}",
+            "int"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "decimals"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "AssertPositive",
+        "label": "AssertPositive(value interface{}, code string, message string) (r domain.FlowStepResult)",
+        "names": "AssertPositive(value, code, message) r",
+        "types": "AssertPositive(interface{}, string, string) domain.FlowStepResult",
+        "description": "Function with 3 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-math",
+          "file_path": "modules/math/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "math/ops",
+          "class": "ops",
+          "name": "AssertPositive",
+          "receiver_type": "*opsTransitions",
+          "num_in": 3,
+          "num_out": 1,
+          "arg_types": [
+            "interface{}",
+            "string",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "code",
+            "message"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "AssertGreaterThan",
+        "label": "AssertGreaterThan(value interface{}, threshold interface{}, code string, message string) (r domain.FlowStepResult)",
+        "names": "AssertGreaterThan(value, threshold, code, message) r",
+        "types": "AssertGreaterThan(interface{}, interface{}, string, string) domain.FlowStepResult",
+        "description": "Function with 4 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-math",
+          "file_path": "modules/math/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "math/ops",
+          "class": "ops",
+          "name": "AssertGreaterThan",
+          "receiver_type": "*opsTransitions",
+          "num_in": 4,
+          "num_out": 1,
+          "arg_types": [
+            "interface{}",
+            "interface{}",
+            "string",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "threshold",
+            "code",
+            "message"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "AssertBalanced",
+        "label": "AssertBalanced(lines interface{}) (r domain.FlowStepResult)",
+        "names": "AssertBalanced(lines) r",
+        "types": "AssertBalanced(interface{}) domain.FlowStepResult",
+        "description": "Function with 1 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-math",
+          "file_path": "modules/math/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "math/ops",
+          "class": "ops",
+          "name": "AssertBalanced",
+          "receiver_type": "*opsTransitions",
+          "num_in": 1,
+          "num_out": 1,
+          "arg_types": [
+            "interface{}"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "lines"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "Round",
+        "label": "Round(value interface{}, decimals int) (r domain.FlowStepResult)",
+        "names": "Round(value, decimals) r",
+        "types": "Round(interface{}, int) domain.FlowStepResult",
+        "description": "Function with 2 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-math",
+          "file_path": "modules/math/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "math/ops",
+          "class": "ops",
+          "name": "Round",
+          "receiver_type": "*opsTransitions",
+          "num_in": 2,
+          "num_out": 1,
+          "arg_types": [
+            "interface{}",
+            "int"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "decimals"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "Sub",
+        "label": "Sub(a interface{}, b interface{}) (r domain.FlowStepResult)",
+        "names": "Sub(a, b) r",
+        "types": "Sub(interface{}, interface{}) domain.FlowStepResult",
+        "description": "Function with 2 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-math",
+          "file_path": "modules/math/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "math/ops",
+          "class": "ops",
+          "name": "Sub",
+          "receiver_type": "*opsTransitions",
+          "num_in": 2,
+          "num_out": 1,
+          "arg_types": [
+            "interface{}",
+            "interface{}"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "a",
+            "b"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      }
+    ]
+  }
+}
